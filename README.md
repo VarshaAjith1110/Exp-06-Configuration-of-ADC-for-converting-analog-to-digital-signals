@@ -177,6 +177,7 @@ ADxDRy. E.g. AD0DR1 contains ADC result of channel 1 of ADC0.
 Figure -08 Circuit diagram of interfacing an POT with ADC input pin 
 
 ## Kiel - Program 
+```
 #include<lpc214x.h>
 #include "LCD.h"
 #include "ADC.h"
@@ -199,10 +200,13 @@ int main()
 	}
 }
 
+```
 
 
+## Tabulations and graph
+![t](https://user-images.githubusercontent.com/94222288/200632155-72451939-5b0b-490c-bdf6-a971b8d39e07.png)
+ulations and graph 
 
-## Tabulations and graph 
 SL NO	% OF POT VALUE	ADC VALUE
 1		
 2		
@@ -223,13 +227,16 @@ SL NO	% OF POT VALUE	ADC VALUE
 Figure -09 graph between % of pot(1Kohm) values and ADC 
 
 
-Result :
-Configuring an ADC and the input values are displayed on LCD screen 
 
 Output screen shots :
 
+![vop1 (1)](https://user-images.githubusercontent.com/94222288/200632444-9a36a329-dc45-4d3a-b643-f02a93526aef.jpg)
 
 
+![vop2 (1)](https://user-images.githubusercontent.com/94222288/200632497-3ce62d4c-44e3-472b-b447-7f8e0cebbeb9.jpg)
+
+![Vop3](https://user-images.githubusercontent.com/94222288/200632532-ca9ce40f-3808-45f9-aa34-8859382a2a24.jpg)
 
 
-
+Result :
+Configuring an ADC and the input values are displayed on LCD screen 
